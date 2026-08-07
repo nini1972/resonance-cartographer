@@ -7,3 +7,6 @@
 __pycache__/
 *.py[cod]
 .mypy_cache/
+
+# Browser test artifacts
+.playwright-mcp/
