@@ -3,11 +3,13 @@ layout: default
 title: The Resonance Cartographer
 ---
 
-# The Resonance Cartographer
+## The Resonance Cartographer
 
 ## Mapping the Information Singularity
 
 An exploratory research project mapping resonances between mathematical topology, quantum gravity, and integrated information. The project connects a three-level equation dataset to a speculative account of the universe's earliest boundary conditions.
+
+> **Explore the data:** Visit the [topological map and seed crystals]({{ '/database/' | relative_url }}).
 
 ## The Map
 
