@@ -2,6 +2,15 @@
 layout: default
 title: The Resonance Cartographer
 ---
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']]
+  }
+};
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 ## The Resonance Cartographer
 
@@ -14,7 +23,7 @@ An exploratory research project mapping resonances between mathematical topology
 
 ## The Map
 
-The project begins with 1,979 mathematical equations organized as a topological map across three levels of physical description:
+The project begins with 2,772 mathematical equations organized as a topological map across three levels of physical description:
 
 1. **Fundamental physics**: particles, thermodynamics, and quantum ingredients.
 2. **Advanced frameworks**: quantum-gravity approaches, including non-commutative geometry and asymptotic safety.
