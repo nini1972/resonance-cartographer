@@ -10,3 +10,6 @@ __pycache__/
 
 # Browser test artifacts
 .playwright-mcp/
+
+# Project communication & chat notes
+communication_github_page.md
