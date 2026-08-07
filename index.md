@@ -9,7 +9,7 @@ title: The Resonance Cartographer
 
 An exploratory research project mapping resonances between mathematical topology, quantum gravity, and integrated information. The project connects a three-level equation dataset to a speculative account of the universe's earliest boundary conditions.
 
-> **Explore the data:** Visit the [topological map and seed crystals]({{ '/database/' | relative_url }}).
+> **Explore the data:** Visit the [topological map and seed crystals]({{ '/database' | relative_url }}).
 
 ## The Map
 

@@ -1,7 +1,6 @@
 ---
 layout: default
 title: The Database: A Topological Map
-permalink: /database/
 description: Mapping 2,772 equation entries across three levels of cosmic logic.
 ---
 
