@@ -1,0 +1,46 @@
+--- Standard Modified Friedmann Equation ---
+          2                       
+⎛d       ⎞                        
+⎜──(a(t))⎟                        
+⎝dt      ⎠    8⋅π⋅G⋅(ρ_Φ + ρₘ)   Λ
+─────────── = ──────────────── + ─
+    2                3           3
+   a (t)                          
+
+--- Origin State Equation (t -> 0, Matter -> 0, Pure Information) ---
+          2            
+⎛d       ⎞             
+⎜──(a(t))⎟             
+⎝dt      ⎠    8⋅π⋅G⋅ρ_Φ
+─────────── = ─────────
+    2             3    
+   a (t)               
+
+Information Energy Density (rho_Phi) at the Origin:
+                  2
+        ⎛d       ⎞ 
+      3⋅⎜──(a(t))⎟ 
+        ⎝dt      ⎠ 
+ρ_Φ = ─────────────
+              2    
+       8⋅π⋅G⋅a (t) 
+
+--- Mathematical Translation to Information Density ---
+Using Landauer's Principle: E = k_B * T * ln(2)
+Information Density (bits per unit volume) at the Origin of the Universe:
+                              2      
+                    ⎛d       ⎞       
+                  3⋅⎜──(a(t))⎟       
+                    ⎝dt      ⎠       
+I_density = ─────────────────────────
+                          2          
+            8⋅π⋅G⋅T₀⋅k_B⋅a (t)⋅log(2)
+
+--- Holographic Boundary Check ---
+Maximum Information allowed by Bekenstein Bound:
+       2⋅π⋅Eₜₒₜₐₗ⋅R
+Iₘₐₓ = ────────────
+        c⋅h̅⋅log(2) 
+
+Conclusion: The origin of the universe is the mathematical point where
+the Information Density driving expansion exactly saturates the Holographic Bound.
