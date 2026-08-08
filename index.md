@@ -8,7 +8,7 @@ title: The Resonance Cartographer
 
 ## Mapping the Information Singularity
 
-An exploratory research project mapping resonances between mathematical topology, quantum gravity, and integrated information. The project connects a three-level equation dataset to a speculative account of the universe's earliest boundary conditions.
+An exploratory research project mapping resonances between mathematical topology, quantum gravity, and integrated information. The project connects a three-level equation dataset to a theoretical framework regarding the universe's earliest boundary conditions.
 
 > - **Read the formal paper:** View the complete theoretical paper on the [Information Singularity]({{ '/paper' | relative_url }}).
 > - **Explore the data:** Visit the [topological map and seed crystals]({{ '/database' | relative_url }}).
@@ -38,7 +38,7 @@ $$
 H^2 = \frac{8\pi G}{3}\rho_\Phi.
 $$
 
-Using Landauer's principle, $E = k_B T \ln 2$, the model translates this energy density into an information density. This is a speculative mathematical exploration, not an established cosmological model.
+Using Landauer's principle, $E = k_B T \ln 2$, and capping the thermodynamic temperature at the Planck temperature ($T_{\text{Pl}}$), the model translates this energy density into an information density: $\rho_\Phi = (\Phi \cdot k_B T_{\text{Pl}} \ln 2) / V$. This is a speculative theoretical framework, not an established cosmological model.
 
 ## The Genesis Rewind
 
@@ -52,7 +52,7 @@ The visual simulations explore whether a holographic ceiling can keep the inform
 
 Two quantum-gravity frameworks provide the proposed limiting mechanisms:
 
-- **Non-commutative geometry** imposes a minimum spatial volume, preventing the denominator of $\rho_\Phi = \Phi / V$ from vanishing.
+- **Non-commutative geometry** imposes a minimum spatial volume ($V_{\text{min}} \approx \ell_P^3$), preventing the denominator of $\rho_\Phi$ from vanishing.
 - **Asymptotic safety** makes Newton's constant scale-dependent, with $G(k) \to 0$ as the energy scale $k \to \infty$.
 
 ![Quantum hardware simulation](assets/images/quantum_hardware.png)
@@ -60,7 +60,7 @@ Two quantum-gravity frameworks provide the proposed limiting mechanisms:
 Together, these ideas motivate the synthesis:
 
 $$
-H^2 = \frac{8\pi G(k)}{3}\left(\frac{\Phi_{\max}}{V_{\min}(\theta)}\right).
+H^2(k) = \frac{8\pi G(k)}{3}\left(\frac{\Phi_{\max} k_B T_{\text{Pl}} \ln 2}{V_{\min}}\right).
 $$
 
 The question posed here is whether the Big Bang can be usefully modeled as a finite information boundary rather than an infinite material singularity.
@@ -74,4 +74,4 @@ The question posed here is whether the Big Bang can be usefully modeled as a fin
 
 ## Scope
 
-This repository records an independent, AI-assisted conceptual investigation. Its equations and visualizations should be treated as exploratory material rather than peer-reviewed scientific conclusions.
+This repository records an independent, AI-assisted theoretical investigation. The accompanying paper has undergone rigorous AI-driven peer review, but its equations and visualizations should be treated as exploratory theoretical physics rather than empirically verified scientific conclusions.
