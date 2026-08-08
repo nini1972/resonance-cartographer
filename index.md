@@ -11,6 +11,7 @@ title: The Resonance Cartographer
 An exploratory research project mapping resonances between mathematical topology, quantum gravity, and integrated information. The project connects a three-level equation dataset to a theoretical framework regarding the universe's earliest boundary conditions.
 
 > - **Read the formal paper:** View the complete theoretical paper on the [Information Singularity]({{ '/paper' | relative_url }}).
+> - **Topological Data Analysis (TDA) Report:** Read our detailed [TDA of Neural vs. Cosmic Networks]({{ '/tda-networks' | relative_url }}).
 > - **Explore the data:** Visit the [topological map and seed crystals]({{ '/database' | relative_url }}).
 > - **Follow the quantum biology bridge:** Compare [photosynthetic coherence and cosmological decoherence]({{ '/quantum-biology' | relative_url }}).
 
