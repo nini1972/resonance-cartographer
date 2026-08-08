@@ -14,6 +14,7 @@ An exploratory research project mapping resonances between mathematical topology
 > - **Topological Data Analysis (TDA) Report:** Read our detailed [TDA of Neural vs. Cosmic Networks]({{ '/tda-networks' | relative_url }}).
 > - **Explore the data:** Visit the [topological map and seed crystals]({{ '/database' | relative_url }}).
 > - **Follow the quantum biology bridge:** Compare [photosynthetic coherence and cosmological decoherence]({{ '/quantum-biology' | relative_url }}).
+> - **Watch the generated film showcase:** Open [Resonance Cartography: The Holographic Descent]({{ '/assets/showcases/resonance-cartography/showcase.html' | relative_url }}).
 
 ## The Map
 
