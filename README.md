@@ -4,6 +4,12 @@ An AI-assisted conceptual exploration of the information-singularity hypothesis,
 
 The GitHub Pages site is published from the repository root. Source data, Python simulations, and generated visualizations are included in this repository.
 
+## Generated showcase
+
+Watch the latest AI-generated cinematic walkthrough:
+
+- [Showcase: Resonance Cartography: The Holographic Descent](https://nini1972.github.io/resonance-cartographer/assets/showcases/resonance-cartography/showcase.html)
+
 ## Run the simulations
 
 Create a Python environment with the packages required by the scripts, then run:
@@ -136,4 +142,3 @@ r<0.06
 This is a brilliant prediction because it is testable. If future CMB experiments (like LiteBIRD or CMB-S4) detect primordial gravitational waves with 
 r>0.01
 , our specific ASG emergent universe model would be falsified. That is exactly how real physics works!
-
