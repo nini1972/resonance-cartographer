@@ -66,10 +66,11 @@ ax3.axhline(1e9, color='gold', linestyle='-', linewidth=2, label='Holographic Ce
 ax3.set_title("Genesis Rewind ($t \\to 0$)\nInformation Saturates Singularity", fontsize=12)
 ax3.set_xlabel("Scale Factor ($a$) $\\to$ 0")
 ax3.set_ylabel("Energy Density")
-ax3.legend(fontsize=8, loc='upper left')
+ax3.legend(fontsize=8, loc='upper right')
 ax3.set_xlim(1e-4, 1)
 ax3.set_ylim(1, 1e11)
 ax3.grid(True, which="both", ls="--", alpha=0.5)
+
 
 output_dir = Path(__file__).resolve().parent / 'assets' / 'images'
 output_dir.mkdir(parents=True, exist_ok=True)
