@@ -6,7 +6,7 @@ import numpy as np
 
 # 1. Define the Time/Scale Rewind
 # a = 1 is today, a -> 0 is the Big Bang
-a = np.logspace(-3, 0, 500) # Scale factor
+a = np.logspace(-4, 0, 500) # Scale factor
 t_rewind = 1 / a # Simplified time rewind metric
 
 # 2. Energy Densities (Relative units)
@@ -20,10 +20,10 @@ rho_rad = a**(-4)
 # From our math: rho_Phi = 3H^2 / (8*pi*G)
 # At early times, H^2 is dominated by the highest energy density.
 # But because of the Holographic Bound, it saturates at the Planck limit.
-rho_phi = np.where(a > 1e-3, 1/a**3, 1e9) # Saturates near the origin
+rho_phi = np.minimum(rho_rad, 1e9) # Information density saturates at the Bekenstein ceiling
 
 # The Holographic Ceiling (Bekenstein Bound limit at Planck scale)
-holographic_ceiling = np.full_like(a, 1e10) 
+holographic_ceiling = np.full_like(a, 1e9) 
 
 # 3. Plotting the Simulator
 fig = plt.figure(figsize=(16, 6))
@@ -61,18 +61,19 @@ ax3 = fig.add_subplot(gs[0, 2])
 ax3.loglog(a, rho_rad, 'r--', label='Classical Radiation ($a^{-4}$)', alpha=0.7)
 ax3.loglog(a, rho_matter, 'b--', label='Classical Matter ($a^{-3}$)', alpha=0.7)
 ax3.loglog(a, rho_phi, 'g-', linewidth=3, label='Information Density ($\\rho_\\Phi$)')
-ax3.axhline(1e10, color='gold', linestyle='-', linewidth=2, label='Holographic Ceiling (Bekenstein)')
+ax3.axhline(1e9, color='gold', linestyle='-', linewidth=2, label='Holographic Ceiling (Bekenstein)')
 
 ax3.set_title("Genesis Rewind ($t \\to 0$)\nInformation Saturates Singularity", fontsize=12)
 ax3.set_xlabel("Scale Factor ($a$) $\\to$ 0")
 ax3.set_ylabel("Energy Density")
 ax3.legend(fontsize=8, loc='upper left')
-ax3.set_xlim(1e-3, 1)
+ax3.set_xlim(1e-4, 1)
 ax3.set_ylim(1, 1e11)
 ax3.grid(True, which="both", ls="--", alpha=0.5)
 
-plt.tight_layout()
-output_path = Path(__file__).resolve().with_name('holographic_ceiling.png')
+output_dir = Path(__file__).resolve().parent / 'assets' / 'images'
+output_dir.mkdir(parents=True, exist_ok=True)
+output_path = output_dir / 'holographic_ceiling.png'
 plt.savefig(output_path, dpi=200, bbox_inches='tight')
 plt.close()
-print(f"Saved visualization to: {output_path}")
+print(f"Saved visualization to: {output_path}")

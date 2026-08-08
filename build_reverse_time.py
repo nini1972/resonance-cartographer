@@ -114,8 +114,10 @@ def visualize_graph(G, seed_variables, output_path):
 if __name__ == "__main__":
     script_directory = Path(__file__).resolve().parent
     file_path = script_directory / 'equations.jsonl'
-    output_path = script_directory / 'reverse_time_graph.png'
+    output_path = script_directory / 'assets' / 'images' / 'reverse_time_graph.png'
     seeds_output_path = script_directory / 'seed_crystals.json'
+
+
     
     print("Building the Reverse-Time Graph...")
     graph, seeds = build_reverse_time_graph(file_path)

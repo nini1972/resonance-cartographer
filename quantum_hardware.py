@@ -1,5 +1,7 @@
+from pathlib import Path
 import numpy as np
 import matplotlib.pyplot as plt
+
 
 # 1. Define the Energy/Momentum Scale (k) - Rewinding to Big Bang
 # k = 1 is today, k -> 10^19 is the Planck scale (t -> 0)
@@ -14,7 +16,7 @@ G_running = 1 / k**2
 # In classical physics, V ~ k^-3 (shrinks to 0 as k -> inf)
 V_classical = 1 / k**3
 # In NCG, V hits a floor at the Planck scale (V_min ~ 1, relative units here)
-V_NCG = np.maximum(V_classical, 1e-5) # Saturates at Planck volume
+V_NCG = np.maximum(V_classical, 1e-57) # Saturates at Planck volume (k = 10^19)
 
 # 4. Level 3: Information Density (rho_Phi)
 # rho = Information / Volume.
@@ -46,4 +48,9 @@ ax2.grid(True, which="both", ls="--", alpha=0.5)
 
 plt.suptitle("The Quantum Hardware: How Level 2 Prevents the Infinite Singularity", fontsize=14, fontweight='bold')
 plt.tight_layout()
-plt.show()
+output_dir = Path(__file__).resolve().parent / 'assets' / 'images'
+output_dir.mkdir(parents=True, exist_ok=True)
+output_path = output_dir / 'quantum_hardware.png'
+plt.savefig(output_path, dpi=200, bbox_inches='tight')
+plt.close()
+print(f"Saved visualization to: {output_path}")
