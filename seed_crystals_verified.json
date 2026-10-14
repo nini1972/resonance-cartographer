@@ -1,0 +1,55 @@
+{
+  "source_file": "equations.jsonl",
+  "audit_version": "2.0-gemini-argon",
+  "summary": "Semantic & dimensional deconvolution of 57 raw regex symbols into verified physical invariants, cosmological parameters, and polysemic bridges.",
+  "core_universal_invariants": [
+    {"symbol": "\\hbar", "description": "Reduced Planck Constant (Quantum Action)"},
+    {"symbol": "k_B", "description": "Boltzmann Constant (Thermodynamic & Informational Entropy)"},
+    {"symbol": "\\Lambda", "description": "Cosmological Constant (Dark Energy & Vacuum Curvature)"},
+    {"symbol": "M_{\\rm Pl}^2", "description": "Planck Mass Squared (Quantum Gravity Cutoff)"},
+    {"symbol": "\\ell_P^2", "description": "Planck Area (Holographic & Minimal Geometric Scale)"},
+    {"symbol": "G_{\\mu\\nu}", "description": "Einstein Tensor (Spacetime Curvature)"},
+    {"symbol": "T_{\\mu\\nu}", "description": "Stress-Energy Tensor (Matter-Energy Density)"},
+    {"symbol": "g_{\\mu\\nu}", "description": "Spacetime Metric Tensor (Geometry & Causal Cones)"},
+    {"symbol": "H_0", "description": "Hubble Constant (Global Expansion & Horizon Scale)"},
+    {"symbol": "a_0", "description": "Critical Acceleration Scale (MOND / Emergent Horizon Acceleration)"}
+  ],
+  "cosmological_parameters": [
+    {"symbol": "\\Omega_m", "description": "Matter Density Parameter"},
+    {"symbol": "\\Omega_\\Lambda", "description": "Dark Energy Density Parameter"},
+    {"symbol": "\\Omega_b", "description": "Baryon Density Parameter"},
+    {"symbol": "\\Omega_c", "description": "Cold Dark Matter Density Parameter"},
+    {"symbol": "\\Omega_r", "description": "Radiation Density Parameter"},
+    {"symbol": "\\Omega_k", "description": "Spatial Curvature Density Parameter"},
+    {"symbol": "\\sigma_8", "description": "Matter Clustering Amplitude at 8 h^{-1} Mpc"},
+    {"symbol": "n_s", "description": "Scalar Spectral Index (Inflationary Perturbations)"}
+  ],
+  "polysemic_bridges": [
+    {
+      "symbol": "\\Phi",
+      "roles": {
+        "Level_1": "Gravitational potential (Poisson equation)",
+        "Level_2": "Inflaton / Scalar field in modified gravity",
+        "Level_3": "Integrated Information (IIT / Cause-Effect Irreducibility)"
+      },
+      "coupling_mechanism": "Action formalization S_Phi with Landauer density coupling lambda_Phi"
+    },
+    {
+      "symbol": "\\rho",
+      "roles": {
+        "Level_1_2": "Energy/matter mass density",
+        "Level_3": "Quantum / Liouville density operator rho_hat in non-equilibrium thermodynamics"
+      }
+    },
+    {
+      "symbol": "\\chi",
+      "roles": {
+        "Level_1_2": "Dark matter particle candidate field",
+        "Level_3": "Topological Euler characteristic (beta_0 - beta_1 + beta_2)"
+      }
+    }
+  ],
+  "syntactic_collisions_excluded": [
+    "\\mu", "\\nu", "\\pi", "\\pi^2", "\\mu^2", "H_0^2", "\\eta^{-1}", "\\delta", "\\alpha", "\\beta", "\\gamma"
+  ]
+}

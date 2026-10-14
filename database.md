@@ -41,7 +41,7 @@ Examples include:
 - **$\hbar$ and $k_B$**: bridges between quantum mechanics and thermodynamics.
 - **$\Phi$**: a recurring scalar symbol whose physical meaning depends on the equation's context.
 
-The recurrence of a symbol is a graph-theoretic observation, not evidence that every use has the same physical meaning. The purpose of the map is to identify promising connections for closer mathematical review.
+The recurrence of a symbol is a graph-theoretic observation, not evidence that every use has the same physical meaning. In **Version 2**, we performed a dimensional and semantic audit to deconvolve these 57 raw symbols into **10 Gold Universal Invariants** ($\hbar, k_B, \Lambda, M_{\text{Pl}}^2, \ell_P^2, G_{\mu\nu}, T_{\mu\nu}, g_{\mu\nu}, H_0, a_0$) and isolate the polysemic $\Phi$-bridge. The verified taxonomy is stored in [`seed_crystals_verified.json`](https://github.com/nini1972/resonance-cartographer/blob/main/seed_crystals_verified.json).
 
 ## Data Provenance
 
